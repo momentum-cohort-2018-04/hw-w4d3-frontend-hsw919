@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Notes</title>
+  <link rel="stylesheet" href="./node_modules/shoelace-css/dist/shoelace.css">
+  <link rel="stylesheet" href="style.scss">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__name">Notes</h1>
+  </header>
+  <div class="container">
+    <form id="new-note-form">
+      <div class="new-note">
+        <h2 class="new-note__title">New Note</h2>
+        <div class="input-field">
+          <input type="text" placeholder="Title" id="title">
+        </div>
+        <div class="input-field">
+          <input type="text" placeholder="Take a note..." id="note">
+        </div>
+        <div class="input-field">
+          <input type="text" placeholder="Tags(Optional)" id="tags">
+        </div>
+        <button type="submit" class="button-success button-lg">Save</button>
+      </div>
+    </form>
+
+    <div class="notes">
+      <h2 class="notes__title">Notes</h2>
+      <div class="notes__contain">
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>

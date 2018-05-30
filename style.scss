@@ -1,0 +1,52 @@
+body {
+  background: #E8E8E8;
+  text-align: center;
+}
+
+.header {
+  background: deepskyblue;
+  margin-bottom: 50px;
+
+  &__name {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 20px;
+    color: #FAFAFA;
+  }
+}
+
+// .container {
+
+// }
+
+.new-note {
+  background: #FAFAFA;
+  padding: 20px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  &__title {
+    margin-bottom: 15px;
+  }
+}
+
+.notes__contain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.notes__each {
+  background: #FAFAFA;
+  margin: 50px 1%;
+  padding: 20px;
+  flex-basis: 48%;
+}
+
+.notes__button {
+  margin-top: 20px;
+}
+
+.notes__title {
+  margin-top: 100px;
+  font-size: 3rem;
+  color: deepskyblue;
+}
